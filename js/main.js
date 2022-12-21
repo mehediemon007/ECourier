@@ -15,13 +15,13 @@
                 merchant_login_btn.addClass('btn-primary');
                 merchant_login_btn.addClass('gradient');
                 merchant_login_btn.removeClass('btn-light');
-                $('.site-header .container > .logo-header .logo-3').attr('src','/images/logo.png');
+                $('.site-header .container > .logo-header .logo-3').attr('src','./images/logo.png');
             } else {
                 menu.removeClass('is-fixed');
                 merchant_login_btn.removeClass('gradient');
                 merchant_login_btn.removeClass('btn-primary');
                 merchant_login_btn.addClass('btn-light');
-                $('.site-header .container > .logo-header .logo, .site-header .container > .logo-header .logo-2, .site-header .container > .logo-header .logo-3').attr('src','/images/logo.png')
+                $('.site-header .container > .logo-header .logo, .site-header .container > .logo-header .logo-2, .site-header .container > .logo-header .logo-3').attr('src','./images/logo.png')
             }
         }
     });
