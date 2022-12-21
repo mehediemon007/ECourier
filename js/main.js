@@ -218,7 +218,7 @@
 
     navToggle.addEventListener("click",()=>{
 
-       $(".cc-nav-menu").slideToggle("200");
+       $(".ec-nav-menu").slideToggle("200");
 
     })
 

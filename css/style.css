@@ -273,7 +273,7 @@ input::-webkit-inner-spin-button {
     scroll-margin-top: 180px;
 }
 
-.cc-btn{
+.ec-btn{
     display: inline-block;
     width: max-content;
     height: 45px;
@@ -343,36 +343,36 @@ section{
     left: 0;
 }
 
-.cc-nav-menu{
+.ec-nav-menu{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
 
-.cc-nav-menu li{
+.ec-nav-menu li{
     position: relative;
 }
 
-.cc-nav-menu li a{
+.ec-nav-menu li a{
     display: block;
     font: var(--font-weight-semi-bold) 16px/21.86px var(--title-font);
     color: var(--primary-color);
     padding: 32px 0;
 }
 
-.cc-nav-menu li a:hover,
-.cc-nav-menu li a.active{
+.ec-nav-menu li a:hover,
+.ec-nav-menu li a.active{
     color: var(--secondary-color);
 }
 
-.cc-nav-menu .sub-menu li{
+.ec-nav-menu .sub-menu li{
     display: block;
 }
 
 /* Banner */
 
-.cc-banner{
+.ec-banner{
     position: relative;
     background: url("../images/banner-shape.png") no-repeat 15%;
     background-size: cover;
@@ -382,20 +382,20 @@ section{
     z-index: 1;
 }
 
-.cc-banner .banner-content h1{
+.ec-banner .banner-content h1{
     font-weight: 600;
     font-size: 60px;
     line-height: 80px;
     letter-spacing: -0.03em;
 }
 
-.cc-banner .banner-content p{
+.ec-banner .banner-content p{
     max-width: 512px;
     font-weight: var(--font-weight-medium);
     margin: 24px auto;
 }
 
-.cc-sec-banner .banner-content{
+.ec-sec-banner .banner-content{
     position: absolute;
     top: 0;
     left: 0;
@@ -405,7 +405,7 @@ section{
     align-items: center;
 }
 
-.cc-sec-banner .banner-content p{
+.ec-sec-banner .banner-content p{
     max-width: 495px;
     font-size: 18px;
     font-weight: var(--font-weight-medium);
@@ -567,7 +567,7 @@ section{
 
 /* Course Details */
 
-.cc-course-details .course-meta-data{
+.ec-course-details .course-meta-data{
     background: #FFFFFF;
     border: 1px solid rgba(55, 52, 169, 0.1);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -782,13 +782,13 @@ button.mfp-close {
 
 /* Faq */
 
-.cc-faq,
+.ec-faq,
 .features-2{
     position: relative;
     z-index: 1;
 }
 
-.cc-faq::before,
+.ec-faq::before,
 .features-2::before{
     position: absolute;
     content: "";
@@ -915,7 +915,7 @@ button.mfp-close {
     margin: 16px 0;
 }
 
-.single-blog .blog-content .cc-btn{
+.single-blog .blog-content .ec-btn{
     margin-top: 16px;
 }
 
@@ -933,7 +933,7 @@ button.mfp-close {
     margin: 4px 0 0;
 }
 
-.cc-pagination a{
+.ec-pagination a{
     display: inline-block;
     width: 32px;
     height: 32px;
@@ -945,15 +945,15 @@ button.mfp-close {
     margin-right: 5px;
 }
 
-.cc-pagination a:hover,
-.cc-pagination a.active{
+.ec-pagination a:hover,
+.ec-pagination a.active{
     color: var(--white-color);
     background-color: var(--primary-color);
 }
 
 /* Blog Details */
 
-.cc-blog-details .blog-meta-data a{
+.ec-blog-details .blog-meta-data a{
     position: relative;
     display: inline-block;
     font-size: 1.10rem;
@@ -961,7 +961,7 @@ button.mfp-close {
     margin-right: 24px;
 }
 
-.cc-blog-details .blog-meta-data a:not(:last-of-type)::after{
+.ec-blog-details .blog-meta-data a:not(:last-of-type)::after{
     position: absolute;
     content: "";
     right: -12px;
@@ -970,11 +970,11 @@ button.mfp-close {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.cc-blog-details .blog-meta-data a.active{
+.ec-blog-details .blog-meta-data a.active{
     color: rgba(0, 0, 0, 0.5);
 }
 
-.cc-blog-details .blog-des{
+.ec-blog-details .blog-des{
     text-align: justify;
 }
 
@@ -1080,11 +1080,11 @@ button.mfp-close {
 
 /* Newsletter */
 
-.cc-news-letter{
+.ec-news-letter{
     background-color: var(--primary-color);
 }
 
-.cc-news-letter .cc-btn{
+.ec-news-letter .ec-btn{
     height: auto;
     font-size: 1.10rem;
     color: var(--primary-color);
@@ -1309,14 +1309,14 @@ button.mfp-close {
 
 /* Login */
 
-.cc-login-wpr{
+.ec-login-wpr{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cc-login{
+.ec-login{
     position: relative;
     background: url("../images/shapes/login-shape.png") no-repeat;
     background-size: 65%;
@@ -1333,18 +1333,18 @@ button.mfp-close {
     z-index: -1;
 }
 
-.cc-login .contact-form{
+.ec-login .contact-form{
     background-color: transparent;
     box-shadow: none;
 }
 
-.cc-login .login-form .cc-btn{
+.ec-login .login-form .ec-btn{
     width: 100%;
     background-color: #2148C0;
     border-radius: 16px;
 }
 
-.login-form .cc-btn:hover{
+.login-form .ec-btn:hover{
     color: var(--white-color);
 }
 
@@ -1376,7 +1376,7 @@ button.mfp-close {
 
 /* Footer */
 
-.cc-footer{
+.ec-footer{
     background-color: var(--primary-color);
     z-index: 1;
 }
@@ -1390,13 +1390,13 @@ button.mfp-close {
     text-align: center;
 }
 
-.cc-footer p,
+.ec-footer p,
 .menu-list li{
     font-size: 1rem;
     color: var(--white-color);
 }
 
-.cc-footer a{
+.ec-footer a{
     display: inline-block;
     font-size: 1rem;
     line-height: 30px;
@@ -1404,7 +1404,7 @@ button.mfp-close {
     transition: var(--transition);
 }
 
-.cc-footer a:hover{
+.ec-footer a:hover{
     color: #FE8B75;
 }
 
