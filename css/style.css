@@ -14651,6 +14651,10 @@ textarea {
   margin-bottom: 0;
 }
 
+.icon-bx-wraper .icon-cell{
+  color: #58f396;
+}
+
 .icon-bx-wraper.style-1 {
   padding: 30px;
   transition: all 0.5s;
