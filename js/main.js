@@ -124,7 +124,6 @@
         
         /*  Testimonials Carousel = owl.carousel.js */
         $('.testimonials-carousel2').owlCarousel({
-            items: 3,
             loop:true,
             margin:30,
             stagePadding: 16,
@@ -152,6 +151,14 @@
             //         items:1
             //     }
             // }
+            responsive:{
+                0:{
+                    items: 1
+                },
+                575:{
+                    items: 3
+                },
+            }
         })
             
         /*  Clients Carousel = owl.carousel.js */
