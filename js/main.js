@@ -124,8 +124,10 @@
         
         /*  Testimonials Carousel = owl.carousel.js */
         $('.testimonials-carousel2').owlCarousel({
+            items: 3,
             loop:true,
             margin:30,
+            stagePadding: 16,
             nav:true,
             autoplaySpeed: 3000,
             navSpeed: 3000,
@@ -135,21 +137,21 @@
             autoplay: true,
             dots: true,
             navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:1
-                },			
+            // responsive:{
+            //     0:{
+            //         items:1
+            //     },
+            //     600:{
+            //         items:1
+            //     },			
                 
-                767:{
-                    items:1
-                },
-                1200:{
-                    items:1
-                }
-            }
+            //     767:{
+            //         items:1
+            //     },
+            //     1200:{
+            //         items:1
+            //     }
+            // }
         })
             
         /*  Clients Carousel = owl.carousel.js */

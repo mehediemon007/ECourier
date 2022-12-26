@@ -13963,7 +13963,7 @@ textarea {
 .btn {
   padding: 12px 35px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 30px;
   font-size: 15px;
   font-weight: 500;
 }
@@ -14810,6 +14810,7 @@ textarea {
   }
 }
 .icon-bx-wraper.style-3 {
+  height: calc(100% - 30px);
   box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.1);
   padding: 30px;
   background-color: #fff;
@@ -15815,7 +15816,7 @@ textarea {
 }
 
 .testimonial-text {
-  padding: 15px;
+  /* padding: 15px; */
   position: relative;
   font-size: 15px;
   font-weight: 400;
@@ -15982,13 +15983,19 @@ textarea {
 
 .testimonial-2 {
   display: flex;
-  align-items: center;
-  width: 800px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: #fff;
+  /* width: 800px; */
   margin: auto;
+  border: 1px solid #1f2471;
+  border-radius: 10px;
+  padding: 15px;
 }
 .testimonial-2 .testimonial-pic {
   overflow: unset;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   width: auto;
   height: auto;
   background-color: transparent;
@@ -15996,10 +16003,12 @@ textarea {
 }
 .testimonial-2 .testimonial-pic img {
   border-radius: 50%;
-  height: 150px;
+  width: 100px;
+  /* height: 150px;
   width: 150px;
-  min-width: 150px;
+  min-width: 150px; */
 }
+
 .testimonial-2 .testimonial-pic:before {
   right: 10px;
   font-size: 50px;
@@ -17971,10 +17980,10 @@ button.scroltop {
 .banner-three {
   height: 850px;
   position: relative;
-  background-position: bottom, top;
-  background-repeat: no-repeat;
+  background: url("../images/banner/bnr1.jpg") no-repeat bottom;
+  background-size: cover;
 }
-.banner-three:after {
+/* .banner-three:after {
   background-image: url("../images/banner-shape.png");
   content: "";
   position: absolute;
@@ -17985,7 +17994,7 @@ button.scroltop {
   background-repeat: no-repeat;
   background-position: bottom;
   z-index: 0;
-}
+} */
 .banner-three .banner-content h1 {
   color: #fff;
 }
@@ -18269,13 +18278,13 @@ button.scroltop {
 }
 .about-wraper-1 .dz-media {
   width: 50vw;
-  float: right;
-  margin: 60px 70px 60px 0;
+  /* float: right; */
+  margin: 60px 0px 60px 70px;
   position: relative;
 }
 .about-wraper-1 .dz-media img {
   width: 100%;
-  border-radius: 0 100px 100px 0;
+  border-radius: 100px 0px 0px 100px;
   box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.2);
 }
 .about-wraper-1 .dz-media:after {
@@ -18288,7 +18297,7 @@ button.scroltop {
   width: 50vw;
   z-index: -1;
   transform: rotate(8deg);
-  border-radius: 0 100px 100px 0;
+  border-radius: 100px 0px 0px 100px;
   box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.2);
 }
 @media only screen and (max-width: 1199px) {
@@ -20297,3 +20306,13 @@ footer .widget_getintuch ul li a{
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Customize Css */
+
+#tracking{
+  position: absolute;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+  z-index: 3;
+}
