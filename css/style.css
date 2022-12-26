@@ -15998,18 +15998,22 @@ textarea {
   /* margin-right: 20px; */
   width: auto;
   height: auto;
-  background-color: transparent;
+  background-color: #f8f5fe;
+  /* background-color: transparent; */
   border: 0;
+  border-radius: 50%;
+  padding: 8px;
 }
 .testimonial-2 .testimonial-pic img {
   border-radius: 50%;
-  width: 100px;
+  width: 80px;
   /* height: 150px;
   width: 150px;
   min-width: 150px; */
 }
 
 .testimonial-2 .testimonial-pic:before {
+  content: none;
   right: 10px;
   font-size: 50px;
   top: auto;
@@ -16019,6 +16023,7 @@ textarea {
   font-size: 20px;
   font-weight: 600;
   padding-left: 40px;
+  margin-bottom: 0;
   position: relative;
 }
 .testimonial-2 .testimonial-name:before {
@@ -16031,6 +16036,11 @@ textarea {
   left: 0;
   width: 30px;
 }
+
+.testimonial-2 .testimonial-company{
+  padding-left: 40px;
+}
+
 @media only screen and (max-width: 991px) {
   .testimonial-2 {
     width: 100%;

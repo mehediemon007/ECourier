@@ -134,7 +134,7 @@
             paginationSpeed: 3000,
             slideSpeed: 3000,
             smartSpeed: 3000,
-            autoplay: true,
+            autoplay: false,
             dots: true,
             navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
             // responsive:{
